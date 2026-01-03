@@ -1,0 +1,37 @@
+Salifort Motors: Predicting Employee Retention
+Google Advanced Data Analytics Capstone Project
+
+Project Overview
+This project aims to help the HR department at Salifort Motors reduce employee turnover. By analyzing historical employee data, I developed a predictive model to identify high-risk employees and the key drivers of attrition.
+
+Business Challenge
+Salifort Motors' leadership wants to understand why employees are leaving and how to improve retention. The primary question is: Can we predict whether an employee will leave based on their departmental data and work habits?
+
+Technical Stack
+Language: Python
+
+Libraries: Pandas, NumPy, Matplotlib, Seaborn (EDA), Scikit-learn (Machine Learning), XGBoost.
+
+Framework: PACE (Plan, Analyze, Construct, Execute).
+
+Key Insights & Results
+The "Overworked" Threshold: Employees working more than 200 hours per month or assigned to more than 5 projects showed a significantly higher probability of leaving.
+
+Model Performance: The Random Forest model achieved an F1-score of [Insert your score, e.g., 0.94], outperforming the Logistic Regression model in predicting the "left" class.
+
+Top Predictors: Satisfaction level, tenure (specifically at 4 years), and average monthly hours were the strongest predictors of turnover.
+
+Actionable Recommendations
+Cap Project Loads: Limit the number of projects per employee to prevent burnout.
+
+Reward Tenure: Investigate why 4-year employees are dissatisfied and consider retention bonuses or promotions at this milestone.
+
+Adjust Overtime Policies: Re-evaluate the work culture regarding long hours and ensure high evaluation scores are not tied solely to excessive overtime.
+
+Repository Structure
+Activity_Notebook.ipynb: The complete Python code covering EDA, model building, and evaluation.
+
+Executive_Summary.pdf: A high-level presentation for stakeholders.
+
+PACE_Strategy_Document.docx: My project management and strategy reflections.
+
